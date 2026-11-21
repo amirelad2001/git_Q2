@@ -55,7 +55,7 @@ class AboutDialog(QDialog):
 
         details = QLabel(
             "Email: 123amire@gmail.com\n"
-            "Course: Your Course\n"
+            "Course: practical programming\n"
             "Assignment: Q2"
         )
         details.setObjectName("aboutDetails")
@@ -175,7 +175,7 @@ class MainWindow(QMainWindow):
         self.profits = []
 
         with open(file_path, 'r') as f:
-            f.readline()  # דילוג על שורת הכותרת
+            f.readline()   
             for line in f:
                 line = line.strip()
                 parts = line.split(',')
@@ -208,7 +208,7 @@ class MainWindow(QMainWindow):
             self.canvas.draw()
             return
 
-        self.ax.scatter(self.temperatures, self.profits, s=8, color="black")
+        self.ax.scatter(self.temperatures, self.profits, s=1, color="black")
         self.ax.set_title("Ice Cream Truck Profits vs. Temperature", color="black")
         self.ax.set_xlabel("Temperature", color="black")
         self.ax.set_ylabel("Profits ($)", color="black")
