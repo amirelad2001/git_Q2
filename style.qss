@@ -1,0 +1,86 @@
+QWidget {
+    color: #233044;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+#centralWidget {
+    background-color: #f4f7fb;
+}
+
+QLabel#mainTitle {
+    color: #17243a;
+    font-size: 22pt;
+    font-weight: 700;
+}
+
+QLabel#aboutTitle {
+    color: #17243a;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+QLabel#aboutDetails {
+    line-height: 1.5;
+}
+
+QPushButton {
+    background-color: #ffffff;
+    border: 1px solid #d5deea;
+    border-radius: 8px;
+    padding: 9px 16px;
+}
+
+QPushButton:hover {
+    background-color: #edf3fa;
+    border-color: #9eb4d0;
+}
+
+QPushButton:pressed {
+    background-color: #e2ebf6;
+}
+
+QPushButton#primaryButton {
+    background-color: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+QPushButton#primaryButton:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+QPushButton#primaryButton:pressed {
+    background-color: #1e40af;
+}
+
+QDialog {
+    background-color: #ffffff;
+}
+
+QLabel a {
+    color: #2563eb;
+}
+
+QToolBar {
+    background-color: transparent;
+    border: none;
+    spacing: 6px;
+}
+
+QToolBar QToolButton {
+    background-color: #ffffff;
+    border: 1px solid #d5deea;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+QToolBar QToolButton:hover {
+    background-color: #edf3fa;
+}
+
+FigureCanvasQTAgg {
+    background-color: #ffffff;
+}
